@@ -33,6 +33,7 @@ cd Fun-Student
 ./mvnw.cmd spring-boot:run
 
 
+
 Для Linux / macOS:
 
 ./mvnw spring-boot:run
