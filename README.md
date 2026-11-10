@@ -1,74 +1,43 @@
-\# Fun Student 🎓
-
-
+# Fun Student 🎓
 
 Веб-приложение для управления студентами и пользователями (учебный проект).
-
 Проект включает в себя полноценный бэкенд на Spring Boot и фронтенд, размещенный в статических ресурсах.
 
+## 🛠 Технологический стек:
+
+* **Backend:** Java 21, Spring Boot 4.0.8, Spring Security (JWT), Spring Data JPA, Hibernate.
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript.
+* **База данных:** H2 (встроенная, для легкого запуска без установки PostgreSQL).
+* **Сборка:** Maven (с использованием Maven Wrapper).
+* **Библиотеки:** Lombok, JJWT.
+
+## 🚀 Как запустить проект локально
+
+Так как проект использует встроенную базу данных H2, вам **не нужно** ничего дополнительно устанавливать или настраивать. База данных создается в оперативной памяти при каждом запуске.
+
+### 1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/rasulowa/Fun-Student.git
 
 
-\## 🛠 Технологический стек:
+### 2. Перейдите в папку с проектом:
 
-\* \*\*Backend:\*\* Java 21, Spring Boot 4.0.8, Spring Security (JWT), Spring Data JPA, Hibernate.
-
-\* \*\*Frontend:\*\* HTML5, CSS3, Vanilla JavaScript.
-
-\* \*\*База данных:\*\* H2 (встроенная, для легкого запуска без установки PostgreSQL).
-
-\* \*\*Сборка:\*\* Maven (с использованием Maven Wrapper).
-
-\* \*\*Библиотеки:\*\* Lombok, JJWT.
+cd Fun-Student
 
 
-
-\## 🚀 Как запустить проект локально
-
-
-
-Так как проект использует встроенную базу данных H2, вам \*\*не нужно\*\* ничего дополнительно устанавливать или настраивать. База данных создается в оперативной памяти при каждом запуске.
-
-
-
-\### 1. Клонируйте репозиторий:
-
-&#x20;  ```bash
-
-&#x20;  git clone https://github.com/rasulowa/Fun-Student.git
-
-
-
-\### 2. Перейдите в папку с проектом:
-
-
-
-&#x20;  cd Fun-Student
-
-
-
-\### 3. Запустите проект с помощью Maven Wrapper:
-
-
+### 3. Запустите проект с помощью Maven Wrapper:
 
 Для Windows (Git Bash / CMD):
 
-
-
-&#x20;  ./mvnw.cmd spring-boot:run
-
+./mvnw.cmd spring-boot:run
 
 
 Для Linux / macOS:
 
+./mvnw spring-boot:run
 
 
-&#x20;   ./mvnw spring-boot:run
+### 4. После появления надписи Started StudentApplication... в консоли, откройте браузер и перейдите по адресу:
 
-
-
-\### 4. После появления надписи Started StudentApplication... в консоли, откройте браузер и перейдите по адресу:
-
-
-
-&#x20;    http://localhost:8080
+http://localhost:8080
 
